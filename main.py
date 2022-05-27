@@ -44,7 +44,7 @@ def mainFunc():
     # Scroll as many times as necessary to load all reviews
     for i in range(0, (round(total_number_of_reviews / 10 - 1))):
     # for i in range(0,3):
-        scrollable_div = driver.find_element(by=By.XPATH, value='//*[@id="pane"]/div/div[1]/div/div/div[2]')
+        scrollable_div = driver.find_element(by=By.XPATH, value='//*[@id="QA0Szd"]/div/div/div[1]/div[2]/div/div[1]/div/div/div[2]')
         driver.execute_script('arguments[0].scrollTop = arguments[0].scrollHeight',scrollable_div)
         time.sleep(1)
 
