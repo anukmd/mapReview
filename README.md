@@ -11,3 +11,8 @@ ChromeDriver
 -  unzip chromedriver_linux64.zip
 -  sudo mv chromedriver /usr/bin/chromedriver 
 -  sudo chmod +x /usr/bin/chromedriver 
+
+
+Scrollable Div 
+- This gets updated by Google frequently. So needs to be updated if code is throwing an error on line 47.
+- Go to any google location -> click on reviews -> on reviews page find the scrollable element -> 'inspect' -> right click on div element -> 'Copy-'CopyXpath'-> replace the path in line 47
